@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="creatingProducts" id="insertProducts">
+        <h1>Product Management</h1>
+
+        <div class="inputGroup">
+          <label class="itemName" for="itemName">Item Name</label>
+          <select name="" id="itemName">
+            <option value="Luxury Bag">Luxury Bag</option>
+            <option value="V-Shape">V-Shape</option>
+            <option value="Articu Samu">Articu Samu</option>
+          </select>
+        </div>
+
+        <div class="inputGroup">
+          <label for="itemType">Product Type</label>
+          <!-- <input id="itemType" type="" placeholder="" /> -->
+          <select name="" id="itemType">
+            <option id="bag" value="Bag">Bag</option>
+            <option id="tshirt" value="T-Shirt">T-Shirt</option>
+            <option id="hoodie" value="Hoodie">Hoodie</option>
+          </select>
+        </div>
+
+        <div class="inputGroup">
+          <label for="itemPrice">Price</label>
+          <select name="" id="itemPrice">
+            <option value="$200">$200</option>
+            <option value="$500">$500</option>
+            <option value="$600">$600</option>
+          </select>
+        </div>
+
+        <div class="inputGroup">
+          <label for="itemAmount">Amount</label>
+          <select name="" id="itemAmount">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+
+        <div class="inputGroup">
+          <button id="add">ADD PRODUCT</button>
+        </div>
+      </div>
+      <div class="showingProducts" id="displayProducts"></div>
+    </div>
+    <script src="./prodcut Insert.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  display: flex;
+  height: 100vh;
+}
+.creatingProducts{
+  width: 40%;
+  height: fit-content ;
+  /* background-color: red; */
+  display: flex ;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: space-around; */
+  margin-top: 30px;
+  
+
+}
+.creatingProducts h1{
+  margin-bottom: 40px;
+}
+.inputGroup{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  text-align: left;
+  /* align-items: center; */
+  margin: auto;
+  margin-bottom: 30px;
+
+  /* background-color: red; */
+}
+.inputGroup label{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.inputGroup input,.inputGroup select{
+  border: none;
+  border-bottom: 1px solid #00000066;
+  padding: 10px;
+}
+
+.inputGroup input:focus-visible{
+  background-color: transparent;
+}
+.inputGroup input:focus{
+  background-color: transparent ;
+}
+.inputGroup button{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #eff4f4;
+  text-decoration: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+.showingProducts{
+  width: 60%;
+  background-color: #eff4f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+}
+.productInfo{
+  width: 30%;
+  height: 10ovh;
+  /* background-color: rgb(255, 255, 255); */
+  /* padding: 20px;  */
+  margin: 30px 20px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;s */
+}
+.NamePrice{
+  position: absolute;
+  text-align: left;
+  padding: 10px;
+}
+.NamePrice h3{
+  font-weight: 600;
+  font-style: italic;
+}
+.NamePrice p{
+  color: #727171;
+}
+.amount{
+  background-color: rgba(22, 22, 22, 0.807);
+  position: absolute;
+  top: 160px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #eff4f4;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.amount p{
+  padding-top: 3px;
+  font-weight: 600; 
+}
+button{
+  border: none;
+  font-weight: 600;
+  text-decoration: underline;
+}
